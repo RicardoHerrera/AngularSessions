@@ -9,4 +9,8 @@ export class LoginComponent {
 
   title = 'E31A';
 
+  ngOnInit() {
+    //chequear user password y mandar pa /
+  }
+
 }

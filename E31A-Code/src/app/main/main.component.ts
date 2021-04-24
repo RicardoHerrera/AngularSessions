@@ -10,6 +10,7 @@ export class MainComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+    //chequear si esta logueado sino redirect a /login
   }
 
 }

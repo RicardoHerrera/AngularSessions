@@ -25,21 +25,21 @@ import { MainComponent } from './main/main.component';
 
 const routes: Routes = [
   {
-    path: 'main',
+    path: '',
     component: MainComponent,
     children: [
-      { path: 'apartment/:id', component: ApartmentComponent, outlet: 'main' },
-      { path: 'project/:id', component: ProjectComponent, outlet: 'main' },
-      { path: 'project', component: ProjectComponent, outlet: 'main' },
-      { path: 'contactus', component: ContactusComponent, outlet: 'main' },
-      { path: 'aboutus', component: AboutusComponent, outlet: 'main' },
-      { path: 'team', component: TeamComponent, outlet: 'main' },
-      { path: 'user', component: UserComponent, outlet: 'main' },
-      { path: 'home', component: HomeComponent, outlet: 'main' },
-      { path: '', component: HomeComponent, outlet: 'main' },
+      { path: 'apartment/:id', component: ApartmentComponent},
+      { path: 'project/:id', component: ProjectComponent},
+      { path: 'project', component: ProjectComponent},
+      { path: 'contactus', component: ContactusComponent},
+      { path: 'aboutus', component: AboutusComponent},
+      { path: 'user', component: UserComponent},
+      { path: 'team', component: TeamComponent},
+      { path: 'home', component: HomeComponent},
+      { path: '', component: HomeComponent},
     ],
   },
-  { path: 'login', component: LoginComponent },
+  { path: 'login', component: LoginComponent},
 ];
 
 @NgModule({
