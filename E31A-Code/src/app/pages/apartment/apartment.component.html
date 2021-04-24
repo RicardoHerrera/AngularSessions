@@ -1,0 +1,33 @@
+<header *ngIf="apartment != null" class="masthead" style="background-image: url(&quot;assets/img/proyects/proyect-Adina.jpg&quot;);">
+    <div class="container">
+        <div class="intro-text">
+            <div *ngIf="project[0] != null" class="intro-lead-in"><span style="-webkit-text-stroke: 1px rgba(120,120,120,0.50);">Proyecto {{project[0].name}}</span></div>
+            <div *ngIf="apartment[0] != null" class="intro-heading text-uppercase"><span style="-webkit-text-stroke: 1px rgba(120,120,120,0.50);">DEPARTAMENTO<br>{{ apartment[0].name }}<br></span></div>
+            <div class="row">
+                <div class="col-12"><a *ngIf="apartment[0] != null" class="btn btn-primary border-dark btn-xl text-uppercase js-scroll-trigger" role="button" style="background-color: rgb(255,165,85);border:none;">{{apartment[0].size }} - {{apartment[0].floor }}<br></a></div>
+                <div class="col-12" style="margin-top: 50px;"><a *ngIf="apartment[0] != null" class="btn btn-primary border-dark btn-xl text-uppercase js-scroll-trigger" role="button" style="border:none;">{{apartment[0].type}}<br></a></div>
+            </div>
+        </div>
+    </div>
+</header>
+<section *ngIf="apartment != null" id="portfolio" class="bg-light" style="padding: 75px 0px;">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="text-uppercase section-heading">Imágenes</h2>
+            </div>
+        </div>
+        <div *ngIf="apartment[0] != null" class="row">
+            <div *ngFor="let d of apartment[0].image" class="col-sm-6 col-md-4 portfolio-item">
+                <a href="#" class="portfolio-link" data-toggle="modal">
+                    <div class="portfolio-hover">
+                        <div class="portfolio-hover-content"><i class="fa fa-plus fa-3x"></i></div>
+                    </div><img class="img-fluid" src="{{ d.path }}" style="background-image: url(&quot;assets/img/departments/department-PacificHighway-01.jpg&quot;);"></a>
+                <div class="portfolio-caption">
+                    <h4>{{ d.place }}</h4>
+                    <p class="text-justify text-muted">{{ d.description }}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

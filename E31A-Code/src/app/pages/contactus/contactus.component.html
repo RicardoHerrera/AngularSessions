@@ -1,0 +1,57 @@
+<div class="container">
+    <form [formGroup]="contactusForm">
+        <div formGroupName="person">
+            <div class="form-group">
+                <label>
+                    Nombre:
+                    <input type="text" formControlName="firstname" class="form-control">
+                </label>
+            </div>
+            <div class="form-group">
+                <label>
+                    Apellido:
+                    <input type="text" formControlName="lastname" class="form-control">
+                </label>
+            </div>
+        </div>
+        <div class="form-group">
+            <label>
+                Email:
+                <input type="email" formControlName="email" class="form-control">
+            </label>
+        </div>
+        <div class="form-group">
+            <label>
+                Direccion:
+                <input type="text" formControlName="address" class="form-control">
+            </label>
+        </div>
+        <div class="form-group">
+            <label>
+                Genero:
+                <div class="form-group form-check">
+                    <input type="radio" formControlName="gender" class="form-check-input" value="M">
+                    <label class="form-check-label">Masculino</label>
+                </div>
+                <div class="form-group form-check">
+                    <input type="radio" formControlName="gender" class="form-check-input" value="F">
+                    <label class="form-check-label">Femenino</label>
+                </div>
+            </label>
+        </div>
+        <div class="form-group">
+            <button (click)="updateValues()" class="btn btn-primary">Cargar Datos Iniciales</button>
+            |
+            <button (click)="cleanValues()" class="btn btn-info">Limpiar Datos Iniciales</button>
+            |
+            <button (click)="onSubmit()" class="btn btn-success">Enviar Informacion</button>
+        </div>
+    </form>
+    <br><br>
+    <p>
+        {{ contactusForm.value | json }}
+    </p>
+    <p>
+        Estado del Formulario: {{ contactusForm.status }}
+    </p>
+</div>
