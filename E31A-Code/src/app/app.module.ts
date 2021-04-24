@@ -13,7 +13,7 @@ import { ProjectComponent } from './pages/project/project.component';
 import { ApartmentComponent } from './pages/apartment/apartment.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { UserComponent } from './private/user/user.component';
-import { LoginComponent } from './app/login/login/login.component';
+import { LoginComponent } from './login/login.component';
 
 @NgModule({
   declarations: [
