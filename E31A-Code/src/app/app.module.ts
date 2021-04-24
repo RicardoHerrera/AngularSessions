@@ -14,6 +14,7 @@ import { ApartmentComponent } from './pages/apartment/apartment.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { UserComponent } from './private/user/user.component';
 import { LoginComponent } from './login/login.component';
+import { MainComponent } from './main/main.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { LoginComponent } from './login/login.component';
     ProjectComponent,
     ApartmentComponent,
     UserComponent,
-    LoginComponent
+    LoginComponent,
+    MainComponent
   ],
   imports: [
     BrowserModule,
