@@ -17,7 +17,6 @@ export class LoginComponent {
   constructor(private router: Router, private formBuilder: FormBuilder) {}
 
   ngOnInit() {
-    //chequear user password y mandar pa /
     if (window.localStorage.getItem('user') !== null) {
       this.router.navigate(['/']);
     }
