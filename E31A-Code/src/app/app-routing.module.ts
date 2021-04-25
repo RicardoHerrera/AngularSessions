@@ -38,6 +38,7 @@ const routes: Routes = [
       { path: 'team', component: TeamComponent },
       { path: 'home', component: HomeComponent },
       { path: '', component: HomeComponent },
+      { path: '**', redirectTo: '/'},
     ],
   },
 ];
