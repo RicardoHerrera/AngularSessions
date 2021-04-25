@@ -1,5 +1,16 @@
 <p>login works!</p>
 
-<ul>
-  <li><a routerLink="/">Main</a></li>
-</ul>
+<div>
+  <span style="padding-right: 10px;">Username:</span>
+  <input type="text" [(ngModel)]="user" />
+</div>
+<div>
+  <span style="padding-right: 10px;">Password:</span>
+  <input type="password" [(ngModel)]="pass" />
+</div>
+
+<button type="button" (click)="login()">login</button>
+
+<!-- <ul> -->
+<!--   <li><a routerLink="/">Main</a></li> -->
+<!-- </ul> -->
