@@ -14,9 +14,7 @@ export class LoginComponent {
     password: '',
   });
 
-  constructor(private router: Router, private formBuilder: FormBuilder) {
-    this.router = router;
-  }
+  constructor(private router: Router, private formBuilder: FormBuilder) {}
 
   ngOnInit() {
     //chequear user password y mandar pa /
