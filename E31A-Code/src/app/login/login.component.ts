@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
+import { FormBuilder } from '@angular/forms';
 
 @Component({
   selector: 'app-login',
@@ -8,10 +9,12 @@ import { Router } from '@angular/router';
 })
 export class LoginComponent {
   title = 'E31A';
-  user = '';
-  pass = '';
+  loginForm = this.formBuilder.group({
+    username: '',
+    password: '',
+  });
 
-  constructor(private router: Router) {
+  constructor(private router: Router, private formBuilder: FormBuilder) {
     this.router = router;
   }
 
@@ -23,15 +26,20 @@ export class LoginComponent {
   }
 
   login() {
-    if (this.user && this.pass) {
+    console.log(this.loginForm.value);
+    if (this.loginForm.value.username && this.loginForm.value.password) {
       window.localStorage.setItem(
         'user',
         JSON.stringify({
-          username: this.user,
-          password: this.pass,
+          username: this.loginForm.value.username,
+          password: this.loginForm.value.password,
         })
       );
       this.router.navigate(['/']);
     }
+  }
+
+  onSubmit() {
+    this.login();
   }
 }

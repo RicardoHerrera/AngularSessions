@@ -12,14 +12,11 @@ export class MainComponent implements OnInit {
   }
 
   ngOnInit(): void {
-    //chequear si esta logueado sino redirect a /login
-    const user = window.localStorage.getItem('user');
-    console.log('user');
-    console.log(user);
     if (window.localStorage.getItem('user') === null) {
       this.router.navigate(['/login']);
     }
   }
+
   logout() {
     window.localStorage.removeItem('user');
     this.router.navigate(['/login']);

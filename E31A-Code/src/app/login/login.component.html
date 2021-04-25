@@ -1,16 +1,14 @@
 <p>login works!</p>
 
-<div>
-  <span style="padding-right: 10px;">Username:</span>
-  <input type="text" [(ngModel)]="user" />
-</div>
-<div>
-  <span style="padding-right: 10px;">Password:</span>
-  <input type="password" [(ngModel)]="pass" />
-</div>
+<form [formGroup]="loginForm" ngSubmit="onSubmit()">
+  <div>
+    <span style="padding-right: 10px;">Username:</span>
+    <input type="text" formControlName="username" />
+  </div>
+  <div>
+    <span style="padding-right: 10px;">Password:</span>
+    <input type="password" formControlName="password" />
+  </div>
 
-<button type="button" (click)="login()">login</button>
-
-<!-- <ul> -->
-<!--   <li><a routerLink="/">Main</a></li> -->
-<!-- </ul> -->
+  <button type="submit" (click)="login()">login</button>
+</form>
