@@ -26,7 +26,6 @@ export class LoginComponent {
   }
 
   login() {
-    console.log(this.loginForm.value);
     if (this.loginForm.value.username && this.loginForm.value.password) {
       window.localStorage.setItem(
         'user',
