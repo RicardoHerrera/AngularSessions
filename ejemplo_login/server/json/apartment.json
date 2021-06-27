@@ -1,0 +1,224 @@
+{
+    "data":[
+        {
+            "projectId": 1,
+            "id": 1,
+            "name": "Nº 43",
+            "size": "145 m²",
+            "floor": "4ºPiso",
+            "type": "Mixto",
+            "image": [
+                {
+                    "path": "assets/img/departments/department-Adina-01.jpg",
+                    "place": "Sala",
+                    "description": "Amueblamiento muy cómodo y de buena calidad."
+                },
+                {
+                    "path": "assets/img/departments/department-Adina-02.jpg",
+                    "place": "Sala de Estar",
+                    "description": "Lugar agradable para tener una buena velada."
+                },
+                {
+                    "path": "assets/img/departments/department-Adina-03.jpg",
+                    "place": "Baño",
+                    "description": "Todo lo indispensable para el aseo y cuidado personal."
+                },
+                {
+                    "path": "assets/img/departments/department-Adina-04.jpg",
+                    "place": "Cocina",
+                    "description": "Todo lo necesario para cocinar ricas comidas."
+                },
+                {
+                    "path": "assets/img/departments/department-Adina-05.jpg",
+                    "place": "Dormitorio",
+                    "description": "Descansa tranquilo y ten hermosos sueños."
+                }
+            ]
+        },
+        {
+            "projectId": 1,
+            "id": 2,
+            "name": "Nº 63",
+            "size": "100 m²",
+            "floor": "7ºPiso",
+            "type": "Duplex",
+            "image": [
+                {
+                    "path": "assets/img/departments/department-Boulogne-01.jpg",
+                    "place": "Sala",
+                    "description": "Amueblamiento muy cómodo y de buena calidad."
+                }
+            ]
+        },
+        {
+            "projectId": 1,
+            "id": 3,
+            "name": "Nº 73",
+            "size": "245 m²",
+            "floor": "8ºPiso",
+            "type": "Duplex",
+            "image": [
+                {
+                    "path": "assets/img/departments/department-Collings-01.jpg",
+                    "place": "Sala",
+                    "description": "Amueblamiento muy cómodo y de buena calidad."
+                }
+            ]
+        },
+        {
+            "projectId": 2,
+            "id": 4,
+            "name": "Nº 88",
+            "size": "145 m²",
+            "floor": "2ºPiso",
+            "type": "Estudio",
+            "image": [
+                {
+                    "path": "assets/img/departments/department-PacificHighway-01.jpg",
+                    "place": "Sala",
+                    "description": "Amueblamiento muy cómodo y de buena calidad."
+                }
+            ]
+        },
+        {
+            "projectId": 3,
+            "id": 5,
+            "name": "Nº 12",
+            "size": "145 m²",
+            "floor": "1ºPiso",
+            "type": "Mixto",
+            "image": [
+                {
+                    "path": "assets/img/departments/department-Thomas-01.jpg",
+                    "place": "Sala",
+                    "description": "Amueblamiento muy cómodo y de buena calidad."
+                }
+            ]
+        },
+        {
+            "projectId": 3,
+            "id": 6,
+            "name": "Nº 43",
+            "size": "145 m²",
+            "floor": "3ºPiso",
+            "type": "Duplex",
+            "image": [
+                {
+                    "path": "assets/img/departments/department-Timber-01.jpg",
+                    "place": "Sala",
+                    "description": "Amueblamiento muy cómodo y de buena calidad."
+                }
+            ]
+        },
+        {
+            "projectId": 4,
+            "id": 7,
+            "name": "Nº 43",
+            "size": "145 m²",
+            "floor": "4ºPiso",
+            "type": "Mixto",
+            "image": [
+                {
+                    "path": "assets/img/departments/department-Adina-01.jpg",
+                    "place": "Sala",
+                    "description": "Amueblamiento muy cómodo y de buena calidad."
+                },
+                {
+                    "path": "assets/img/departments/department-Adina-02.jpg",
+                    "place": "Sala de Estar",
+                    "description": "Lugar agradable para tener una buena velada."
+                },
+                {
+                    "path": "assets/img/departments/department-Adina-03.jpg",
+                    "place": "Baño",
+                    "description": "Todo lo indispensable para el aseo y cuidado personal."
+                },
+                {
+                    "path": "assets/img/departments/department-Adina-04.jpg",
+                    "place": "Cocina",
+                    "description": "Todo lo necesario para cocinar ricas comidas."
+                },
+                {
+                    "path": "assets/img/departments/department-Adina-05.jpg",
+                    "place": "Dormitorio",
+                    "description": "Descansa tranquilo y ten hermosos sueños."
+                }
+            ]
+        },
+        {
+            "projectId": 4,
+            "id": 8,
+            "name": "Nº 63",
+            "size": "100 m²",
+            "floor": "7ºPiso",
+            "type": "Duplex",
+            "image": [
+                {
+                    "path": "assets/img/departments/department-Boulogne-01.jpg",
+                    "place": "Sala",
+                    "description": "Amueblamiento muy cómodo y de buena calidad."
+                }
+            ]
+        },
+        {
+            "projectId": 5,
+            "id": 9,
+            "name": "Nº 73",
+            "size": "245 m²",
+            "floor": "8ºPiso",
+            "type": "Duplex",
+            "image": [
+                {
+                    "path": "assets/img/departments/department-Collings-01.jpg",
+                    "place": "Sala",
+                    "description": "Amueblamiento muy cómodo y de buena calidad."
+                }
+            ]
+        },
+        {
+            "projectId": 6,
+            "id": 10,
+            "name": "Nº 88",
+            "size": "145 m²",
+            "floor": "2ºPiso",
+            "type": "Estudio",
+            "image": [
+                {
+                    "path": "assets/img/departments/department-PacificHighway-01.jpg",
+                    "place": "Sala",
+                    "description": "Amueblamiento muy cómodo y de buena calidad."
+                }
+            ]
+        },
+        {
+            "projectId": 6,
+            "id": 11,
+            "name": "Nº 12",
+            "size": "145 m²",
+            "floor": "1ºPiso",
+            "type": "Mixto",
+            "image": [
+                {
+                    "path": "assets/img/departments/department-Thomas-01.jpg",
+                    "place": "Sala",
+                    "description": "Amueblamiento muy cómodo y de buena calidad."
+                }
+            ]
+        },
+        {
+            "projectId": 6,
+            "id": 12,
+            "name": "Nº 43",
+            "size": "145 m²",
+            "floor": "3ºPiso",
+            "type": "Duplex",
+            "image": [
+                {
+                    "path": "assets/img/departments/department-Timber-01.jpg",
+                    "place": "Sala",
+                    "description": "Amueblamiento muy cómodo y de buena calidad."
+                }
+            ]
+        }
+    ]
+}
