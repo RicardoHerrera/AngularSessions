@@ -7,9 +7,7 @@ import { Router } from '@angular/router';
   styleUrls: ['./main.component.css'],
 })
 export class MainComponent implements OnInit {
-  constructor(private router: Router) {
-    this.router = router;
-  }
+  constructor(private router: Router) {}
 
   ngOnInit(): void {
     if (window.localStorage.getItem('user') === null) {
