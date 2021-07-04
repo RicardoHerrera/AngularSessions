@@ -1,0 +1,105 @@
+<header
+  *ngIf="showProject == false"
+  class="masthead"
+  style="background-image: url('assets/img/proyects/proyect-Adina.jpg');"
+>
+  <div class="container">
+    <div class="intro-text">
+      <div class="intro-heading text-uppercase">
+        <span
+          *ngIf="projects[0] != null"
+          style="-webkit-text-stroke: 1px rgba(120, 120, 120, 0.5);"
+        >
+          PROYECTO<br />{{ projects[0].name }}
+        </span>
+      </div>
+      <a
+        class="btn btn-primary border-dark btn-xl text-uppercase js-scroll-trigger"
+        role="button"
+        href="#portfolio"
+        style="background-color: rgb(255, 165, 85); border: none;"
+      >
+        VISITA NUESTROS<br />DEPARTAMENTOS
+      </a>
+    </div>
+  </div>
+</header>
+<section id="portfolio" class="bg-light" style="padding: 75px 0px;">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 *ngIf="showProject == true" class="text-uppercase section-heading">
+          PROYECTOS
+        </h2>
+        <h2 *ngIf="showProject == false" class="text-uppercase section-heading">
+          DEPARTAMENTOS
+        </h2>
+      </div>
+    </div>
+    <div *ngIf="showProject == true" class="row">
+      <div *ngFor="let p of projects" class="col-sm-6 col-md-4 portfolio-item">
+        <a
+          routerLink="/project/{{ p.id}}"
+          class="portfolio-link"
+          data-toggle="modal"
+        >
+          <div class="portfolio-hover">
+            <div class="portfolio-hover-content">
+              <i class="fa fa-plus fa-3x"></i>
+            </div>
+          </div>
+          <img class="img-fluid" src="{{ p.image }}"
+        /></a>
+
+        <div class="portfolio-caption">
+          <h4>{{ p.name }}</h4>
+          <p class="text-muted">
+            <strong><em>{{ p.price }}</em><br /></strong>
+          </p>
+          <p class="text-muted">{{ p.address }}</p>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div
+        *ngFor="let d of apartments"
+        class="col-sm-6 col-md-4 portfolio-item"
+      >
+        <a
+          routerLink="/apartment/{{ d.id }}"
+          class="portfolio-link"
+          data-toggle="modal"
+        >
+          <div class="portfolio-hover">
+            <div class="portfolio-hover-content">
+              <i class="fa fa-plus fa-3x"></i>
+            </div>
+          </div>
+          <img class="img-fluid" src="{{ d.image[0].path }}" /><a
+            class="btn btn-primary border-dark text-uppercase"
+            role="button"
+            href="#"
+            style="
+              background-color: rgb(255, 165, 85);
+              border: none;
+              position: absolute;
+              right: 5px;
+              bottom: 5px;
+              font-size: 12px;
+              font-weight: bold;
+              color: rgba(255, 255, 255, 0.75);
+            "
+            >Cotizar</a
+          ></a
+        >
+        <div class="portfolio-caption">
+          <h4>{{ d.name }}</h4>
+          <p class="text-muted">
+            <strong><em>{{ d.size }} - {{ d.floor }}</em><br /></strong>
+          </p>
+          <p class="text-muted">{{ d.type }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
