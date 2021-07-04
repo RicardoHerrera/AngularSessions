@@ -1,0 +1,45 @@
+<div class="container">
+    <form [formGroup]="contactusForm">
+        <div class="form-row" formGroupName="person">
+            <div class="form-group col-md-6">
+                <label>Nombre</label>
+                <input type="text" formControlName="firstname" class="form-control">
+            </div>
+            <div class="form-group col-md-6">
+                <label>Apellidos</label>
+                <input type="text" formControlName="lastname" class="form-control">
+            </div>
+        </div>
+        <div class="form-row">
+            <div class="form-group col-md-6">
+                <label>Email</label>
+                <input type="email" formControlName="email" class="form-control">
+            </div>
+        </div>
+        <div class="form-row">
+            <div class="form-group col-md-12">
+                <label>Mensaje</label>
+                <textarea formControlName="message" rows="4" class="form-control"></textarea>
+            </div>
+        </div>
+        <div class="form-row">
+            <div class="form-group">
+                <button (click)="onSubmit()" class="btn btn-info">Guardar</button>
+                |
+                <button (click)="cleanValues()" class="btn btn-danger">Limpiar</button>
+                |
+                <button (click)="updateValues()" class="btn btn-primary">Cargar Datos</button>
+            </div>
+        </div>
+    </form>
+    <br>
+    <br>
+    <p>
+        {{ contactusForm.value | json }}
+    </p>
+    <p>
+        Estado de Formulario: {{ contactusForm.status }}
+        <br>
+        Formulario es Valido?: {{ contactusForm.valid }}
+    </p>
+</div>

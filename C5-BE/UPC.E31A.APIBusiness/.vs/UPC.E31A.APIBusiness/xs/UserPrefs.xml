@@ -1,0 +1,34 @@
+﻿<Properties StartupConfiguration="{3E9C5060-8A75-4963-897B-496525EF3F79}|API">
+  <MonoDevelop.Ide.Workbench ActiveDocument="UPC.E31A.APIBusiness/UPC.E31A.APIBusiness.API/appsettings.json">
+    <Files>
+      <File FileName="UPC.E31A.APIBusiness/UPC.E31A.APIBusiness.API/Controllers/ProjectController.cs" Line="1" Column="1" />
+      <File FileName="UPC.E31A.APIBusiness/UPC.E31A.APIBusiness.API/Config/ConfigSettings.cs" />
+      <File FileName="UPC.E31A.APIBusiness/UPC.E31A.APIBusiness.API/Security/AccessToken.cs" Line="34" Column="1" />
+      <File FileName="UPC.E31A.APIBusiness/UPC.E31A.APIBusiness.API/appsettings.json" Line="10" Column="121" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="UPC.E31A.APIBusiness" expanded="True">
+            <Node name="UPC.E31A.APIBusiness.API" expanded="True">
+              <Node name="Security" expanded="True" />
+              <Node name="appsettings.json" selected="True" />
+            </Node>
+            <Node name="UPC.E31A.APIBusiness.DBContext" expanded="True">
+              <Node name="Base" expanded="True" />
+              <Node name="Interface" expanded="True" />
+            </Node>
+            <Node name="UPC.E31A.APIBusiness.DBEntity" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.UPC.E31A.APIBusiness.API PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

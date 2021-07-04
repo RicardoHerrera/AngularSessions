@@ -1,0 +1,9 @@
+/Users/ricardoherrera/Documents/UPC/AAD/Desarrolloweb/Semana5/UPC.E31A.APIBusiness/UPC.E31A.APIBusiness/UPC.E31A.APIBusiness.DBEntity/bin/Debug/netcoreapp3.1/UPC.E31A.APIBusiness.DBEntity.deps.json
+/Users/ricardoherrera/Documents/UPC/AAD/Desarrolloweb/Semana5/UPC.E31A.APIBusiness/UPC.E31A.APIBusiness/UPC.E31A.APIBusiness.DBEntity/bin/Debug/netcoreapp3.1/UPC.E31A.APIBusiness.DBEntity.dll
+/Users/ricardoherrera/Documents/UPC/AAD/Desarrolloweb/Semana5/UPC.E31A.APIBusiness/UPC.E31A.APIBusiness/UPC.E31A.APIBusiness.DBEntity/bin/Debug/netcoreapp3.1/UPC.E31A.APIBusiness.DBEntity.pdb
+/Users/ricardoherrera/Documents/UPC/AAD/Desarrolloweb/Semana5/UPC.E31A.APIBusiness/UPC.E31A.APIBusiness/UPC.E31A.APIBusiness.DBEntity/obj/Debug/netcoreapp3.1/UPC.E31A.APIBusiness.DBEntity.AssemblyInfoInputs.cache
+/Users/ricardoherrera/Documents/UPC/AAD/Desarrolloweb/Semana5/UPC.E31A.APIBusiness/UPC.E31A.APIBusiness/UPC.E31A.APIBusiness.DBEntity/obj/Debug/netcoreapp3.1/UPC.E31A.APIBusiness.DBEntity.AssemblyInfo.cs
+/Users/ricardoherrera/Documents/UPC/AAD/Desarrolloweb/Semana5/UPC.E31A.APIBusiness/UPC.E31A.APIBusiness/UPC.E31A.APIBusiness.DBEntity/obj/Debug/netcoreapp3.1/UPC.E31A.APIBusiness.DBEntity.csproj.CoreCompileInputs.cache
+/Users/ricardoherrera/Documents/UPC/AAD/Desarrolloweb/Semana5/UPC.E31A.APIBusiness/UPC.E31A.APIBusiness/UPC.E31A.APIBusiness.DBEntity/obj/Debug/netcoreapp3.1/UPC.E31A.APIBusiness.DBEntity.dll
+/Users/ricardoherrera/Documents/UPC/AAD/Desarrolloweb/Semana5/UPC.E31A.APIBusiness/UPC.E31A.APIBusiness/UPC.E31A.APIBusiness.DBEntity/obj/Debug/netcoreapp3.1/UPC.E31A.APIBusiness.DBEntity.pdb
+/Users/ricardoherrera/Documents/UPC/AAD/Desarrolloweb/Semana5/UPC.E31A.APIBusiness/UPC.E31A.APIBusiness/UPC.E31A.APIBusiness.DBEntity/obj/Debug/netcoreapp3.1/UPC.E31A.APIBusiness.DBEntity.csprojAssemblyReference.cache

@@ -1,0 +1,25 @@
+{
+    "data": [
+        {
+            "id": 1,
+            "name": "Adina",
+            "price": "Desde S/.310 300",
+            "address": "Av. Alcazar 538 - Miraflores",
+            "image": "assets/img/proyects/proyect-Adina.jpg"
+        },
+        {
+            "id": 2,
+            "name": "Boulogne",
+            "price": "Desde S/.421 200",
+            "address": "Av. Arica 615 - Breña",
+            "image": "assets/img/proyects/proyect-Boulogne.jpg"
+        },
+        {
+            "id": 3,
+            "name": "Collings",
+            "price": "Desde S/.449 400",
+            "address": "Av. Sucre 461 - San Isidro",
+            "image": "assets/img/proyects/proyect-Collins.jpg"
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+Comandos Comunes:
+
+git clone 'nombre-Repositorio/url'
+git fetch // Ver los cambios de su repositorio local vs los cambios que hay en la nube
+git pull // Actualiza lo local con lo remoto
+git add // Agrega los archivos que tienen cambios para ser comiteados
+git commit // Prepara los archivos deseados para ser enviados al remoto
+git push // Envia los archivos al remoto
+git status // Te informa del estado de tu repositorio local
+
+rama - branch
+
+rama principal: main o master
+Rama secundaria: Nombre-que-deseen - Pueden trabajar sin afectar la rama principal (main o master)

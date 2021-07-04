@@ -1,0 +1,12 @@
+/Users/ricardoherrera/Documents/UPC/AAD/Desarrolloweb/Semana5/UPC.E31A.APIBusiness/UPC.E31A.APIBusiness/UPC.E31A.APIBusiness.DBContext/obj/Debug/netcoreapp3.1/UPC.E31A.APIBusiness.DBContext.csprojAssemblyReference.cache
+/Users/ricardoherrera/Documents/UPC/AAD/Desarrolloweb/Semana5/UPC.E31A.APIBusiness/UPC.E31A.APIBusiness/UPC.E31A.APIBusiness.DBContext/obj/Debug/netcoreapp3.1/UPC.E31A.APIBusiness.DBContext.AssemblyInfoInputs.cache
+/Users/ricardoherrera/Documents/UPC/AAD/Desarrolloweb/Semana5/UPC.E31A.APIBusiness/UPC.E31A.APIBusiness/UPC.E31A.APIBusiness.DBContext/obj/Debug/netcoreapp3.1/UPC.E31A.APIBusiness.DBContext.AssemblyInfo.cs
+/Users/ricardoherrera/Documents/UPC/AAD/Desarrolloweb/Semana5/UPC.E31A.APIBusiness/UPC.E31A.APIBusiness/UPC.E31A.APIBusiness.DBContext/obj/Debug/netcoreapp3.1/UPC.E31A.APIBusiness.DBContext.csproj.CoreCompileInputs.cache
+/Users/ricardoherrera/Documents/UPC/AAD/Desarrolloweb/Semana5/UPC.E31A.APIBusiness/UPC.E31A.APIBusiness/UPC.E31A.APIBusiness.DBContext/bin/Debug/netcoreapp3.1/UPC.E31A.APIBusiness.DBContext.deps.json
+/Users/ricardoherrera/Documents/UPC/AAD/Desarrolloweb/Semana5/UPC.E31A.APIBusiness/UPC.E31A.APIBusiness/UPC.E31A.APIBusiness.DBContext/bin/Debug/netcoreapp3.1/UPC.E31A.APIBusiness.DBContext.dll
+/Users/ricardoherrera/Documents/UPC/AAD/Desarrolloweb/Semana5/UPC.E31A.APIBusiness/UPC.E31A.APIBusiness/UPC.E31A.APIBusiness.DBContext/bin/Debug/netcoreapp3.1/UPC.E31A.APIBusiness.DBContext.pdb
+/Users/ricardoherrera/Documents/UPC/AAD/Desarrolloweb/Semana5/UPC.E31A.APIBusiness/UPC.E31A.APIBusiness/UPC.E31A.APIBusiness.DBContext/bin/Debug/netcoreapp3.1/UPC.E31A.APIBusiness.DBEntity.dll
+/Users/ricardoherrera/Documents/UPC/AAD/Desarrolloweb/Semana5/UPC.E31A.APIBusiness/UPC.E31A.APIBusiness/UPC.E31A.APIBusiness.DBContext/bin/Debug/netcoreapp3.1/UPC.E31A.APIBusiness.DBEntity.pdb
+/Users/ricardoherrera/Documents/UPC/AAD/Desarrolloweb/Semana5/UPC.E31A.APIBusiness/UPC.E31A.APIBusiness/UPC.E31A.APIBusiness.DBContext/obj/Debug/netcoreapp3.1/UPC.E31A.APIBusiness.DBContext.csproj.CopyComplete
+/Users/ricardoherrera/Documents/UPC/AAD/Desarrolloweb/Semana5/UPC.E31A.APIBusiness/UPC.E31A.APIBusiness/UPC.E31A.APIBusiness.DBContext/obj/Debug/netcoreapp3.1/UPC.E31A.APIBusiness.DBContext.dll
+/Users/ricardoherrera/Documents/UPC/AAD/Desarrolloweb/Semana5/UPC.E31A.APIBusiness/UPC.E31A.APIBusiness/UPC.E31A.APIBusiness.DBContext/obj/Debug/netcoreapp3.1/UPC.E31A.APIBusiness.DBContext.pdb

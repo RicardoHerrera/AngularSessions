@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+	<ProjectGuid>{3CB7210E-C87D-4222-8EFD-8D81C780DDAF}</ProjectGuid>
+	<RootNamespace>UPC.E31A.APIBusiness.DBContext</RootNamespace>
+	<AssemblyName>UPC.E31A.APIBusiness.DBContext</AssemblyName>
+	<ProjectTypeGuids>{786C830F-07A1-408B-BD7F-6EE04809D6DB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Dapper" Version="2.0.78" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="2.2.0" />
+    <PackageReference Include="Microsoft.Extensions.Options.ConfigurationExtensions" Version="2.2.0" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.7.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\UPC.E31A.APIBusiness.DBEntity\UPC.E31A.APIBusiness.DBEntity.csproj">
+	</ProjectReference>
+  </ItemGroup>
+
+</Project>

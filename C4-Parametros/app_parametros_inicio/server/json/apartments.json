@@ -1,0 +1,44 @@
+{
+    "data": [
+        {
+            "id": 1,
+            "projectId": 1,
+            "name": "Nº 43",
+            "size": "145 m²",
+            "floor": "4ºPiso",
+            "type": "Mixto",
+            "images": [
+                {
+                    "path": "assets/img/departments/department-Adina-01.jpg",
+                    "place": "Sala",
+                    "description": "Amueblamiento muy cómodo y de buena calidad."
+                },
+                {
+                    "path": "assets/img/departments/department-Adina-02.jpg",
+                    "place": "Mesa de Estar",
+                    "description": "Lugar agradable para tener una buena velada."
+                }
+            ]
+        },
+        {
+            "id": 1,
+            "projectId": 2,
+            "name": "Nº 43",
+            "size": "145 m²",
+            "floor": "4ºPiso",
+            "type": "Mixto",
+            "images": [
+                {
+                    "path": "assets/img/departments/department-Adina-01.jpg",
+                    "place": "Sala",
+                    "description": "Amueblamiento muy cómodo y de buena calidad."
+                },
+                {
+                    "path": "assets/img/departments/department-Adina-02.jpg",
+                    "place": "Mesa de Estar",
+                    "description": "Lugar agradable para tener una buena velada."
+                }
+            ]
+        }
+    ]
+}
